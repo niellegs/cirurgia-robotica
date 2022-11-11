@@ -98,9 +98,9 @@ h1 {
     background: #2bb389;
 }
 
-.timeline__point-initial {
+.timeline__point {
     position: absolute;
-    top: 70px;
+    top: 0 auto;
     left: 50%;
     transform: translateX(-50%);
     width: 15px;
@@ -109,15 +109,9 @@ h1 {
     border-radius: 50%;
 }
 
-.timeline__point {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
-    background: #2bb389;
-    border-radius: 50%;
+.timeline__img {
+    height: auto;
+    width: 280px;
 }
 
 .timeline__title {
@@ -129,3 +123,23 @@ h1 {
 .timeline__paragraph {
     line-height: 1.5;
 }
+
+.timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+  
+  .timeline__title {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+  
+  .timeline__paragraph {
+    line-height: 1.5;
+  }
+  
