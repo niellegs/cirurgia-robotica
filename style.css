@@ -156,3 +156,10 @@ h1 {
     height: 600px;
     width: auto;
   }
+
+ /********** PÁGINA: ESTRUTURA  *************/
+
+#img-estrutura {
+    width: 500px;
+    height: auto;
+}
